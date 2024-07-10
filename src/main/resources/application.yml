@@ -1,0 +1,12 @@
+spring:
+  application.name: country_finder
+  datasource:
+    url: jdbc:postgresql://postgres:5432/db
+    driverClassName: org.postgresql.Driver
+    username: user
+    password: password
+  liquibase:
+    change-log: db/changelog/master.yaml
+    database-change-log-lock-table: liquibase_lock
+    database-change-log-table: liquibase_changelog
+server.port: 8088
