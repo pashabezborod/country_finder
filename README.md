@@ -1,6 +1,6 @@
 Запуск тестов - ```gradle test``` 
 
-Сборка и запуск проекта - ```docker compose up```
+Сборка и запуск проекта - ```docker compose up -d```
 
 Подключение - <http://localhost:80>
 
